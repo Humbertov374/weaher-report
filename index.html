@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +8,14 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <title>Weather Dashboard</title>
+    <title>Weather Report</title>
 </head>
-
 <body>
     <nav class="navbar navbar-light bg-secondary">
         <div class="container-fluid justify-content-center">
             <span class="navbar-text mb-0 h1 text-light">Weather Dashboard</span>
         </div>
     </nav>
-
     <div class="container">
         <div class="row">
             <div class="col-3 bg-light p-3">
@@ -26,11 +23,17 @@
                     <label for="Search" class="form-label">Search for a City:</label>
                     <div class="d-flex">
                         <input type="search" class="form-control" id="search-input" placeholder="Search">
-                        <button class="btn btn-primary" data-target="search-input" id="search-button"><i
+                        <button class="btn btn-primary" data-target="search-input"><i
                                 class="fas fa-search"></i></button>
                     </div>
                 </div>
-                <ul class="list-group"></ul>
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
             </div>
             <div class="col-9">
                 <div class="card">
@@ -39,6 +42,7 @@
                         <p class="card-text" id="temp">Temperature:</p>
                         <p class="card-text" id="humidity">Humidity:</p>
                         <p class="card-text" id="wind">Wind Speed:</p>
+                        <p class="card-text">Uv Index: <span class="badge bg-success" id="uv-index">0/10</span></p>
                         <p class="card-text">UV Index: <span class="badge bg-success" id="uv-index">0/10</span></p>
                     </div>
                 </div>
@@ -53,5 +57,4 @@
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
