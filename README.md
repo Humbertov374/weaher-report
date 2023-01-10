@@ -7,9 +7,9 @@ It includes the current day's weather stats (temperature, humidity, wind speed, 
 Also if you somehow forget the name of the city you looked up, no worries! All searched cities will be saved to the local storage!
 So remember before you head out, use the weather channel, and you'll never forget your coat, umbrella, or sun screen ever again!
 
-<a href=""><img src="./assets/Weather Report.jpg">
+<a href="https://humbertov374.github.io/weaher-report/"><img src="./assets/weather-report.jpg">
 
 
 
 
-
+https://humbertov374.github.io/weaher-report/
